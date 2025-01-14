@@ -2,7 +2,7 @@
 This is a Health Checker written in Python to utilize the provided HTTP Endpoints to yield cumulative results.
 Results are logged every 15 seconds, showing the cumulative availability percentages for each monitored domain.
 
-##Docker
+## Docker
 
 To access the results, you can use Docker for a simple and seamless experience.
 To quickly run this, if you have docker installed on your system, all that is needed is to
@@ -11,7 +11,7 @@ To quickly run this, if you have docker installed on your system, all that is ne
 3. To exit or stop the container, press '''Ctrl+C'''.
 
 
-##Local build and run
+## Local build and run
 
 If you're not using docker, and instead are using your local environment to build all that is needed and run this, here are the steps
 1. Install Python if not already on your system.
@@ -19,7 +19,7 @@ If you're not using docker, and instead are using your local environment to buil
 3. After all is installed, simply run "python main.py config.yml"
 4. To stop the script, press '''Ctrl+C'''.
 
-#Output
+## Output
 '''
 fetch.com has 67% availability percentage
 www.fetchrewards.com has 100% availability percentage
